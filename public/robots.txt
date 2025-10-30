@@ -1,0 +1,10 @@
+# robots.txt for GrowEdge
+
+User-agent: *
+Allow: /
+
+# Optional: Disallow admin or private areas (if any)
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: https://grow-edge.netlify.app/sitemap.xml

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", sans-serif;
+    --color-primary: #2870F1;
+    --color-surface-primary: #fff;
+    --color-surface-secondary: #EEF1F5;
+    --color-border-primary: #EFF1F3;
+    --color-border-secondary: #2870F1;
+    --color-heading: #000;
+    --color-body: #0F1114;
+    --color-quote: #575F6A;
+    --color-action: #2870F1;
+    --color-action-hover: #1E59C2;
+}
+
+@layer components {
+  .nav-link {
+    @apply relative inline-block text-action hover:text-action-hover text-sm font-bold after:content-[''] after:absolute after:left-[-10px] after:-bottom-1 after:w-[calc(100%+20px)] after:h-[2px] after:bg-action-hover after:transition after:duration-300 after:scale-y-0 hover:after:scale-y-100 after:origin-bottom transform transition-transform duration-300 ease-out hover:scale-110 active:scale-95;
+  }
+
+  .nav-link.active {
+    @apply text-action-hover after:scale-y-100; 
+  }
+
+  .btn {
+    @apply bg-primary text-white px-4 lg:px-8 md:py-4 md:text-sm py-2 rounded-lg hover:bg-action-hover shadow-lg hover:shadow-xl transition duration-300 text-xs font-medium cursor-pointer; 
+  }
+
+  /* Service card */
+  .service-card {
+    @apply flex flex-col p-4 shadow-sm w-[300px] bg-white border border-border-primary rounded-xl;
+  }
+
+  .service-card img {
+    @apply block w-full h-auto object-cover rounded-lg;
+  }
+
+  .service-card h3 {
+    @apply text-base lg:text-lg font-bold text-left py-2;
+  }
+
+  .service-card p {
+    @apply text-sm lg:text-base pb-4;
+  }
+
+  /* Work Card */
+  .work {
+    @apply flex flex-col gap-2 p-6 w-[300px] shadow-md border border-border-primary rounded-lg bg-surface-secondary;
+  }
+
+  .work h2 {
+    @apply text-xl lg:text-2xl font-extrabold text-heading;
+  }
+
+  .work h3 {
+    @apply text-base lg:text-lg font-bold text-heading;
+  }
+
+  .work p {
+    @apply text-sm lg:text-base text-body;
+  }
+
+  /* Testimonial */
+  .testimonial {
+    @apply flex flex-col w-[300px] p-4 gap-2 bg-white border border-border-primary shadow-md rounded-xl;
+  }
+
+  .testimonial-header {
+    @apply flex items-center gap-2;
+  }
+
+  .testimonial h3 {
+    @apply text-lg lg:text-xl font-bold text-heading;
+  }
+
+  .testimonial ul {
+    @apply flex gap-1;
+  }
+
+  .testimonial p {
+    @apply text-sm lg:text-base text-body;
+  }
+
+  .step-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb; /* Tailwind blue-600 */
+  }
+}

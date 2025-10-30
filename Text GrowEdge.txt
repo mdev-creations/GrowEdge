@@ -1,0 +1,131 @@
+============= HEADER =============
+.nav__logo
+GrowEdge
+
+.nav__link
+Home - About - Service - Contact
+
+
+============= HOME ============= 
+.home__title
+Unlock Potential with your <br> Personal Coach
+
+.home__description
+One-on-One & group coaching to boost confidence clarity & growth.
+
+.home__button
+Book free call
+
+
+============= ABOUT =============
+.section__title
+Meet Mukteswar Tripathy
+
+.about__description
+Hi, I'm Mukteswar — a certified life coach passionate about helping individuals overcome self-doubt, build unshakable confidence, and live with purpose.
+<br>
+<em>“I believe everyone has the power to grow. My mission is to help you find clarity, build mental resilience, and unlock your full potential.”</em>
+<br>
+<ul>
+  <li><strong>Certified Life Coach</strong> - International Coaching Federation (IFC)</li>
+  <li>5+ years of coaching experience</li>   
+  <li>100+ clients across India and abroad</li>   
+  <li>Specialized in personal development & mindset coaching</li>   
+</ul>
+
+
+============= SERVICE =============
+.section__title
+Services Offered
+
+.service__title .service__description
+Confidence Coaching
+Overcome self-doubt, unlock your voice, and build self-belief through weekly Zoom sessions (45 mins).
+
+Goal-Setting Sessions
+Set meaningful personal or professional goals with action steps. Includes 2 live calls and a progress worksheet.
+
+Time Management
+Learn simple, actionable techniques to manage your day better. One 1-hour Zoom session + planner PDF.
+
+Group Coaching
+Join a supportive 4-week program with weekly group calls, accountability partners, and growth tools.
+
+
+============= WORKING =============
+.section__title
+How It works
+
+.working__step .working__title .working__description
+1
+Book a Free Call
+Choose a convenient time to speak with Priya and explore your challenges.
+
+2
+Get a Personalized Plan
+After understanding your needs, receive a coaching plan tailored for you.
+
+3
+Start Your Journey
+Begin your transformation with confidence and guided support every step of the way.
+
+.working__button
+Book Your Free Call
+
+
+============= TESTIMONIAL =============
+.section__title
+What Clients Say
+
+.testimonial__title .testimonial__description
+Ananya Sharma
+“Mukteswar helped me regain clarity and self-belief when I felt stuck in my career. Her sessions are life-changing!”
+
+Rohit Mehta
+“From time management to building confidence, the coaching was precise and personalized. Highly recommend GrowEdge!”
+
+Harpit Mishra
+“I joined the group coaching program with low expectations and left with a new mindset and new habits. Game changer!”
+
+
+============= CONTACT =============
+.section__title
+Get in Touch
+
+.contact__input
+Your Name
+Your Email
+Your Message
+
+.contact__button
+Send Message 
+
+
+============= FOOTER =============
+.footer__logo
+GrowEdge
+
+.footer__caption
+Helping you grow with clarity, confidence & coaching.
+
+.footer__contact
+<b>Email:</b> mukteswar.work@gmail.com
+<b>Phone:</b> +91 84XXX XXXXX
+
+.footer__title .footer__link
+Quick Links
+  Home
+  About
+  Service
+  Working
+  Testimonial
+  Contact
+
+Follow Us
+  https://www.facebook.com/
+  https://www.instagram.com/
+  https://twitter.com/
+  https://youtube.com/
+  
+.footer__copy
+&#169; 2025 GrowEdge Coaching. All rights reserved.
