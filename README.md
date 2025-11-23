@@ -10,7 +10,6 @@ This project focuses on clean UI design, SEO optimization, and fast loading spee
 - HTML5  
 - Tailwind CSS  
 - Vite  
-- JavaScript (Vanilla)
 
 ## 📱 Features
 - Fully responsive design  
